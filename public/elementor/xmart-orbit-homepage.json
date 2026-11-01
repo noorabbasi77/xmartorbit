@@ -1,0 +1,204 @@
+{
+  "version": "0.4",
+  "title": "XMart Orbit - Homepage Hero & Hosting Section",
+  "type": "page",
+  "content": [
+    {
+      "id": "xo_hero_section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "background_background": "gradient",
+        "background_color": "#F4F0FF",
+        "background_color_b": "#FFFFFF",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": { "unit": "deg", "size": 180 },
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "80", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "xo_hero_col_left",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 60 },
+          "elements": [
+            {
+              "id": "xo_hero_kicker",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "NEXT-GENERATION CLOUD INFRASTRUCTURE · SAVE 77%",
+                "header_size": "h6",
+                "title_color": "#673DE6",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": { "unit": "px", "size": 13 },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "xo_hero_h1",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Everything You Need to Succeed Online",
+                "header_size": "h1",
+                "title_color": "#1B1340",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": { "unit": "px", "size": 52 },
+                "typography_font_weight": "900",
+                "typography_line_height": { "unit": "em", "size": 1.15 }
+              }
+            },
+            {
+              "id": "xo_hero_desc",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Power your online success with <strong>XMart Orbit Private Limited</strong>. Experience fast, secure, and reliable web hosting, powerful cloud solutions, domain registration, and expert support — all in one place.</p>",
+                "text_color": "#727586",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": { "unit": "px", "size": 16 }
+              }
+            },
+            {
+              "id": "xo_hero_features_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_color": "#00B090",
+                "text_color": "#1D1E20",
+                "icon_list": [
+                  { "text": "High-Performance NVMe SSD Hosting", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Free Lifetime SSL Certificates", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "Free Domain Name for 1st Year", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "24/7/365 Dedicated Expert Support", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "99.9% Uptime Guarantee", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } },
+                  { "text": "30-Day Money-Back Guarantee", "selected_icon": { "value": "fas fa-check-circle", "library": "fa-solid" } }
+                ]
+              }
+            },
+            {
+              "id": "xo_hero_cta_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Claim Deal - From $2.99/mo",
+                "link": { "url": "#pricing-section" },
+                "align": "left",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#673DE6",
+                "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "xo_hero_col_right",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40,
+            "background_background": "gradient",
+            "background_color": "#2F1C6A",
+            "background_color_b": "#1B1340",
+            "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+            "padding": { "unit": "px", "top": "35", "right": "30", "bottom": "35", "left": "30", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "xo_card_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "XMart Enterprise Node #04",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "xo_card_subtitle",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frankfurt Tier-4 Datacenter · 99.99% Online",
+                "header_size": "h6",
+                "title_color": "#00B090",
+                "typography_font_family": "DM Sans"
+              }
+            },
+            {
+              "id": "xo_card_spec1",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color:#DDD;'><strong>Web Engine:</strong> LiteSpeed Enterprise (5x faster than Apache)</p><p style='color:#DDD;'><strong>Storage IOPS:</strong> PCIe Gen 5.0 NVMe (7,500 MB/s)</p><p style='color:#DDD;'><strong>Processor:</strong> AMD EPYC™ 9654 High-Frequency Cores</p><p style='color:#DDD;'><strong>DDoS Mitigation:</strong> Cloudflare Magic Transit Active</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xo_pricing_section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "xo_pricing_head_col",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "xo_pricing_heading",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Transparent NVMe Hosting Plans",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1B1340",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "900"
+              }
+            },
+            {
+              "id": "xo_pricing_sub",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "All plans include high-speed NVMe SSD drives, 1-click installer, automated backups, and 24/7/365 expert support.",
+                "header_size": "h5",
+                "align": "center",
+                "title_color": "#727586",
+                "typography_font_family": "DM Sans"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

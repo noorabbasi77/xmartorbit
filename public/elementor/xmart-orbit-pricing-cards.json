@@ -1,0 +1,242 @@
+{
+  "version": "0.4",
+  "title": "XMart Orbit - Pricing Cards Grid",
+  "type": "section",
+  "content": [
+    {
+      "id": "xo_pricing_row",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "background_color": "#F4F0FF",
+        "padding": { "unit": "px", "top": "60", "right": "20", "bottom": "60", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "card_col_1",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.333,
+            "background_color": "#FFFFFF",
+            "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+            "padding": { "unit": "px", "top": "35", "right": "25", "bottom": "35", "left": "25", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "p1_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Single Web Hosting",
+                "header_size": "h3",
+                "title_color": "#1B1340",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "p1_price",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "$1.99 / mo",
+                "header_size": "h2",
+                "title_color": "#673DE6",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "900"
+              }
+            },
+            {
+              "id": "p1_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_color": "#00B090",
+                "icon_list": [
+                  { "text": "1 Website Hosted", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "50 GB NVMe Storage", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Free Unlimited SSL", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Weekly Backups", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "LiteSpeed Web Server", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } }
+                ]
+              }
+            },
+            {
+              "id": "p1_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Choose Single Plan",
+                "link": { "url": "https://xmartorbit.com/#pricing-section" },
+                "align": "justify",
+                "button_text_color": "#1B1340",
+                "background_color": "#F4F0FF",
+                "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true }
+              }
+            }
+          ]
+        },
+        {
+          "id": "card_col_2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.333,
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+            "border_color": "#673DE6",
+            "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+            "padding": { "unit": "px", "top": "35", "right": "25", "bottom": "35", "left": "25", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "p2_badge",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "MOST POPULAR · SAVE 77%",
+                "header_size": "h6",
+                "title_color": "#673DE6",
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "p2_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Premium Web Hosting",
+                "header_size": "h3",
+                "title_color": "#1B1340",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "p2_price",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "$2.99 / mo",
+                "header_size": "h2",
+                "title_color": "#673DE6",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "900"
+              }
+            },
+            {
+              "id": "p2_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_color": "#00B090",
+                "icon_list": [
+                  { "text": "100 Websites Hosted", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "100 GB Ultra-Fast NVMe SSD", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Free Domain (1st Year Included)", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Free Unlimited SSL & CDN", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Free Professional Business Email", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "LiteSpeed Cache (LSCache)", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } }
+                ]
+              }
+            },
+            {
+              "id": "p2_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Choose Premium Plan",
+                "link": { "url": "https://xmartorbit.com/#pricing-section" },
+                "align": "justify",
+                "button_text_color": "#FFFFFF",
+                "background_color": "#673DE6",
+                "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true }
+              }
+            }
+          ]
+        },
+        {
+          "id": "card_col_3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 33.333,
+            "background_color": "#FFFFFF",
+            "border_radius": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+            "padding": { "unit": "px", "top": "35", "right": "25", "bottom": "35", "left": "25", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "p3_title",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Business Web Hosting",
+                "header_size": "h3",
+                "title_color": "#1B1340",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "800"
+              }
+            },
+            {
+              "id": "p3_price",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "$3.99 / mo",
+                "header_size": "h2",
+                "title_color": "#673DE6",
+                "typography_font_family": "DM Sans",
+                "typography_font_weight": "900"
+              }
+            },
+            {
+              "id": "p3_list",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "icon-list",
+              "settings": {
+                "icon_color": "#00B090",
+                "icon_list": [
+                  { "text": "100 Websites Hosted", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "200 GB High-Performance NVMe", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Daily Automated Backups", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "WordPress 1-Click Staging", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } },
+                  { "text": "Object Cache (Redis) Active", "selected_icon": { "value": "fas fa-check", "library": "fa-solid" } }
+                ]
+              }
+            },
+            {
+              "id": "p3_btn",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Choose Business Plan",
+                "link": { "url": "https://xmartorbit.com/#pricing-section" },
+                "align": "justify",
+                "button_text_color": "#1B1340",
+                "background_color": "#F4F0FF",
+                "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

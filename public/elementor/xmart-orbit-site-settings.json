@@ -1,0 +1,45 @@
+{
+  "name": "XMart Orbit Elementor Kit Settings",
+  "version": "1.0",
+  "settings": {
+    "system_colors": [
+      { "_id": "primary", "title": "Primary Purple", "color": "#673DE6" },
+      { "_id": "secondary", "title": "Deep Purple", "color": "#2F1C6A" },
+      { "_id": "text", "title": "Dark Text", "color": "#1D1E20" },
+      { "_id": "accent", "title": "Success Green", "color": "#00B090" }
+    ],
+    "custom_colors": [
+      { "_id": "dark_purple", "title": "Dark Purple", "color": "#1B1340" },
+      { "_id": "light_lavender", "title": "Light Lavender", "color": "#F4F0FF" },
+      { "_id": "soft_purple", "title": "Soft Purple", "color": "#EDE5FF" },
+      { "_id": "muted_text", "title": "Muted Text", "color": "#727586" }
+    ],
+    "system_typography": [
+      {
+        "_id": "primary",
+        "title": "Primary Headline",
+        "typography_font_family": "DM Sans",
+        "typography_font_weight": "700"
+      },
+      {
+        "_id": "secondary",
+        "title": "Secondary Subhead",
+        "typography_font_family": "DM Sans",
+        "typography_font_weight": "600"
+      },
+      {
+        "_id": "text",
+        "title": "Body Prose",
+        "typography_font_family": "DM Sans",
+        "typography_font_weight": "400"
+      },
+      {
+        "_id": "accent",
+        "title": "Mono Data",
+        "typography_font_family": "JetBrains Mono",
+        "typography_font_weight": "500"
+      }
+    ],
+    "container_width": { "unit": "px", "size": 1280 }
+  }
+}
